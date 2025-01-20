@@ -63,7 +63,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
    };
 
    if ((event.body.toLowerCase() == "owner") || (event.body.toLowerCase() == "create you")) {
-     return api.sendMessage("‎[𝐎𝐖𝐍𝐄𝐑:☞𝗦𝗮𝗺𝗲𝗲𝗿 𝗸𝗵𝗮𝗻☜ 𝚈𝚘𝚞 𝙲𝚊𝚗 𝙲𝚊𝚕𝚕 𝙷𝚒𝚖 𝐌𝐫𝗦𝗮𝗺𝗲𝗲𝗿. 𝐇𝐢𝐬 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐢𝐝 :-https://www.facebook.com/share/1565f1q9U4/  Contact Him on WhatsApp :- +0506102528", threadID);
+     return api.sendMessage("‎[𝐎𝐖𝐍𝐄𝐑:☞𝗦𝗮𝗺𝗲𝗲𝗿 𝗸𝗵𝗮𝗻☜ 𝚈𝚘𝚞 𝙲𝚊𝚗 𝙲𝚊𝚕𝚕 𝙷𝚒𝚖 𝐌𝐫𝗦𝗮𝗺𝗲𝗲𝗿. 𝐇𝐢𝐬 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐢𝐝 :-https://www.facebook.com/share/1565f1q9U4/  Contact Him  :- 𝕤𝕒𝕞𝕖𝕖𝕣 𝕜𝕙𝕒𝕟", threadID);
    };
 
    if ((event.body.toLowerCase() == "tumhe banaya kon hai") || (event.body.toLowerCase() == "tumko banaya kisne")) {
